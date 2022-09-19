@@ -22,11 +22,11 @@ const Home: NextPageWithLayout = () => {
       <section>
         <div className="flex flex-col items-center justify-center px-4 pt-36 text-center md:px-8 md:pb-32 lg:pt-44">
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-ctp-text md:text-5xl lg:text-6xl">
-            An Arch based distribution
+            Eine Arch-Linux basierte Distribution
           </h1>
           <p className="mb-6 text-lg font-normal text-ctp-subtext1 sm:px-16 lg:text-xl xl:px-48">
-            Crystal Linux is a brand new Arch Linux based distribution.
-            Friendly, powerful and easy to use.
+            Crystal Linux ist eine neue Arch-Linux basierte Distribution.
+            Freundlich, leistungsstark und einfach zu bedienen.
           </p>
 
           <div className="w-full flex gap-2 justify-center flex-wrap">
@@ -34,12 +34,12 @@ const Home: NextPageWithLayout = () => {
               className="inline-flex w-full items-center justify-center rounded-lg bg-ctp-mauve py-3 px-5 text-center text-base font-medium text-ctp-base no-underline focus:ring-4 sm:w-fit"
               href="https://github.com/crystal-linux/iso/releases/latest"
             >
-              Download
+              Herunterladen
             </a>
 
             <Link href="/docs/crystal-linux/getting-started">
               <a className="inline-flex w-full items-center justify-center gap-2 rounded-lg py-3 px-5 text-center text-base font-medium text-ctp-text no-underline focus:ring-4 sm:w-fit">
-                Getting Started
+                Erste Schritte
                 <FontAwesomeIcon icon={faArrowRight} />
               </a>
             </Link>
@@ -49,13 +49,13 @@ const Home: NextPageWithLayout = () => {
 
       <HomeSection className="">
         <div className="basis-1/4">
-          <p className="mt-8 font-semibold text-ctp-maroon">Beautiful</p>
+          <p className="mt-8 font-semibold text-ctp-maroon">Wunderschön</p>
           <p className="mt-4 text-3xl font-extrabold tracking-tight text-ctp-text sm:text-4xl">
-            Onyx built-in
+            Onyx
           </p>
           <p className="mt-4 max-w-3xl text-ctp-subtext1">
-            Install Crystal with it{"'"}s in-house desktop experience, a custom
-            GNOME session with a familiar layout. Or choose your favourite!
+            Installieren Sie Crystal Linux mit der hauseigenen Desktop-Oberfläche, 
+            einer benutzerdefinierten GNOME-Sitzung mit einem vertrauten Layout. Oder wählen Sie Ihren Favoriten!
           </p>
         </div>
 
@@ -70,12 +70,12 @@ const Home: NextPageWithLayout = () => {
 
       <HomeSection>
         <div>
-          <p className="mt-8 font-semibold text-ctp-rosewater">Buttery</p>
+          <p className="mt-8 font-semibold text-ctp-rosewater">Geschmeidig</p>
           <p className="mt-4 text-3xl font-extrabold tracking-tight text-ctp-text sm:text-4xl">
-            Automatic Backups
+            Automatische Backups
           </p>
           <p className="mt-4 max-w-3xl space-y-6 text-ctp-subtext1">
-            Backup & Restore your system. Easily boot into Btrfs snapshots.
+            Sichern und Wiederherstellen Ihres Systems. Einfaches Booten in Btrfs-Snapshots.
           </p>
         </div>
 
@@ -90,19 +90,19 @@ const Home: NextPageWithLayout = () => {
 
       <HomeSection className="pb-16 md:pb-28">
         <div className="basis-1/4">
-          <p className="mt-8 font-semibold text-ctp-mauve">Rusty Quartz?</p>
+          <p className="mt-8 font-semibold text-ctp-mauve">Rostiger Quarz?</p>
           <p className="mt-4 text-3xl font-extrabold tracking-tight text-ctp-text sm:text-4xl">
             Amethyst
           </p>
           <p className="mt-4 max-w-3xl text-ctp-subtext1">
-            Amethyst is a fast, efficient and lightweight AUR helper and Pacman
-            wrapper. Made for Crystal, compatible with any Arch-based Linux
-            distribution.
+            Amethyst ist ein schneller, effizienter und leichter 
+            AUR-Helfer und Pacman Wrapper. Entwickelt für Crystal, kompatibel mit jeder 
+            Arch-basierten Linux Distribution.
           </p>
 
           <Link href="/docs/amethyst/getting-started">
             <a className="inline-flex mt-4 w-full items-center border border-ctp-mantle bg-ctp-surface0 justify-center gap-2 rounded-full py-2 px-4 text-center text-base font-medium text-ctp-text no-underline focus:ring-4 sm:w-fit">
-              Learn more
+              Mehr erfahren
               <FontAwesomeIcon icon={faArrowRight} />
             </a>
           </Link>

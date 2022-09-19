@@ -16,10 +16,10 @@ const Footer = () => (
   <footer className="border-t border-ctp-mantle text-ctp-text">
     <div className="mx-auto flex max-w-8xl flex-col gap-8 px-4 py-6 md:flex-row md:px-8">
       <section className="basis-1/3">
-        <h4 className="text-2xl font-bold">About</h4>
+        <h4 className="text-2xl font-bold">Über Crystal</h4>
         <p>
-          Crystal Linux is a brand new Arch Linux based distribution. Friendly,
-          easy to use, and powerful.
+          Crystal Linux ist eine neue Arch-Linux basierte Distribution. 
+          Freundlich, leistungsstark und einfach zu bedienen.
         </p>
       </section>
       <section className="basis-1/3">
@@ -92,7 +92,7 @@ const Footer = () => (
         </ul>
       </section>
       <section className="basis-1/3">
-        <h4 className="text-2xl font-bold">Other</h4>
+        <h4 className="text-2xl font-bold">Anderes</h4>
         <ul>
         <li>
             <Link href="https://opencollective.com/crystal-linux">
@@ -102,22 +102,23 @@ const Footer = () => (
                   className="mr-1"
                   fixedWidth={true}
                 />
-                Open Collective
+                Spende und auf Open Collective
               </a>
             </Link>
           </li>
           <li>
             <a href="https://github.com/crystal-linux/.github/blob/main/CONTRIBUTING.md">
-              Contributing Guidelines
+              Richtlinien für die Mitwirkenden
             </a>
           </li>
           <li>
-            <a href="https://www.contributor-covenant.org/">
-              The Contributor Covenant
+            <a href="https://www.contributor-covenant.org/de/version/2/0/code_of_conduct/">
+             Vereinbarung über Verhaltenskodex für Mitwirkende
             </a>
           </li>
           <li>
-            <a href="https://developercertificate.org/">The DCO</a>
+            <a href="https://developercertificate.org/">
+              The DCO</a>
           </li>
         </ul>
       </section>
